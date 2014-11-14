@@ -39,7 +39,8 @@ hi ModeMsg	guifg=goldenrod
 hi MoreMsg	guifg=SeaGreen
 hi NonText	guifg=LightBlue guibg=grey30
 hi Question	guifg=springgreen
-hi Search	guibg=peru guifg=wheat
+" hi Search	guibg=peru guifg=wheat
+hi Search	guibg=grey30 guifg=#dfffdf
 hi SpecialKey	guifg=yellowgreen
 hi StatusLine	guibg=#c2bfa5 guifg=black gui=none
 hi StatusLineNC	guibg=#c2bfa5 guifg=grey50 gui=none
@@ -86,10 +87,10 @@ hi WarningMsg    ctermfg=1
 hi WildMenu      ctermfg=0 ctermbg=3
 hi Folded        ctermfg=darkgrey ctermbg=NONE
 hi FoldColumn    ctermfg=darkgrey ctermbg=NONE
-hi DiffAdd       ctermbg=4
-hi DiffChange    ctermbg=5
+hi DiffAdd       ctermbg=4 guibg=#000077
+hi DiffChange    ctermbg=5 guibg=#7D64A3
 hi DiffDelete    cterm=bold ctermfg=4 ctermbg=6
-hi DiffText      cterm=bold ctermbg=1
+hi DiffText      cterm=bold ctermbg=1 guibg=#700000
 hi Comment       ctermfg=darkcyan
 hi Constant      ctermfg=brown
 hi Special       ctermfg=5
@@ -101,5 +102,7 @@ hi Underlined    cterm=underline ctermfg=5
 hi Ignore        ctermfg=darkgrey
 hi Error         cterm=bold ctermfg=7 ctermbg=1
 
+hi Pmenu          guifg=#ffffff guibg=#505050
+hi PmenuSel			guifg=#ffffff guibg=#993333
 
 "vim: sw=4
