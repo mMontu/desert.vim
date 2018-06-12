@@ -34,7 +34,8 @@ hi VertSplit      guibg=#c2bfa5 guifg=grey50 gui=none
 hi Folded         guibg=grey30 guifg=gold
 hi FoldColumn     guibg=grey30 guifg=tan
 hi IncSearch      guifg=slategrey guibg=khaki
-"hi LineNr
+" hi LineNr         guifg=burlywood3 gui=NONE
+hi LineNr         guibg=grey17 guifg=grey70
 hi ModeMsg        guifg=goldenrod
 hi MoreMsg        guifg=SeaGreen
 hi NonText        guifg=LightBlue guibg=grey30
